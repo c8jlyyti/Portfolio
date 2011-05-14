@@ -1,0 +1,2 @@
+Finally got my git to work!
+Solution was adding a global variable in windows called "home" with the value of "C:\"
