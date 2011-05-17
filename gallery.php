@@ -1,6 +1,7 @@
 <?php
 require_once("lib/maininclude.php");
 
+
 function is_empty_folder($folder)
 {
     $c = 0;
@@ -22,11 +23,11 @@ function is_empty_folder($folder)
         }
     }
 }
-
 function main()
 {
     printHeader("HNs - Kuvagalleria");
     print "\n<div id=\"content\">\n<br />";
+    print "\n<div id=\"fullgall\">";
     print "\n<h1 id=\"hgal\">Kuvagalleria</h1>";
     if ( $dirhandle = opendir('images/gallery') )
     {
@@ -35,7 +36,7 @@ function main()
             if ($dirname != "." && $dirname != "..")
             {
                 print "\n<div class=\"album\">";
-                print "\n<h2> $dirname </h2>";
+                print "\n<h2 id=\"albumname\"> $dirname </h2>";
 
                 if ($handle = opendir('images/gallery/'.$dirname.''))
                 {
@@ -45,18 +46,19 @@ function main()
                     }
                     else
                     {
-			print "\n<table class=\"albumtable\">";
-                        print "\n<tr>";
 
-                        $i = 0;
+                    print "\n<table class=\"albumtable\">";
+                    print "\n<tr>";
 
+                    $i = 0;
+					
                         while (false !== ($file = readdir($handle)))
                         {
                             if ($file != "." && $file != "..")
                             {
                                 print "\n  <td><a href=\"images/gallery/"
                                 .$dirname."/".$file."\">".
-                                "<img src=\"images/gallery/".$dirname."/".$file.""/></a</td>";
+                                "<img src=\"images/gallery/".$dirname."/".$file."\"/></a></td>";
                             }
                             if ( $i > 9 )
                             {
@@ -71,17 +73,15 @@ function main()
                     print "\n</table>";
                 }
                 print "</div>";
-		}
+            }
         }
     }
     closedir($dirhandle);
-
+    print "\n</div>";
     print "\n</div>";
     printFooter();
-
 }
 
 main();
-
 
 ?>
