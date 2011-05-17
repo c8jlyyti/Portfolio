@@ -957,15 +957,20 @@ h2
 /* END OF COMMENTS */
 
 /* GALLERY STYLING */
+
+/* --------------- GALLERY STYLING ENDS -------------------- */
 #content .album
 {
-    margin-left:80px;
-    border-bottom:3px solid #e1edff;
-    margin-top:-10px;
+    width:100%;
+    background-color:white;
+    margin-bottom:10px;
 }
-#content .album h2
+#content #fullgall #hgal
 {
-    min-width:720px;
+    position:relative;
+    top:-30px;
+    margin-top:50px;
+    height:0;
 }
 #content .album p
 {
@@ -973,13 +978,16 @@ h2
 }
 #content .album .albumtable
 {
-    margin-top:-10px;
-    background-color:#FFFFFF;
+    margin-left:60px;
+    margin-top:-5px;
+    margin-bottom:10px;
 }
 #content .album h2
 {
-    color:#FFFFFF;
-    background-color:#3399FF;
+    color:#3399FF;
+    background-color:white;
+    border-bottom:2px solid #3399FF;
+    font-weight:lighter;
     font-size:1.7em;
     padding-left:50px;
 }
@@ -987,7 +995,6 @@ h2
 {
     height:100px;
     padding:5px;
-    background-color:#e1edff;
 }
 #content .album .albumtable td:hover
 {
@@ -997,28 +1004,39 @@ h2
 {
     width:72px;
     height:100px;
-    border:0;
+    border:1px solid black;
+}
+#album-nav #albumname
+{
+    font-size:1.5em;
+    color:white;
 }
 #album-nav
 {
+    border-bottom:2px solid black;
+}
+#album-nav span
+{
+    color:black;
+    font-size:1.2em;
+}
+.prev
+{
     margin-left:20px;
-    margin-bottom:20px;
 }
 .prev, .next
 {
-    border:1px solid #000000;
-    color:#FFFFFF;
-    background-color:#3399FF;
+    border:1px solid #000;
+    color:#000;
+    background-color:#e1edff;
     font-weight:lighter;
     padding:0.25em;
+    margin-bottom:10px;
 }
 .prev:hover, .next:hover
 {
     border-style:inset;
 }
-
-/* --------------- GALLERY STYLING ENDS -------------------- */
-
 /* -------------- PRACTICE PAGE STYLING -------------------- */
 
 .practicetable
