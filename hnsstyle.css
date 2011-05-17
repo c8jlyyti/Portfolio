@@ -1,0 +1,1095 @@
+/* BODY STYLING */
+body
+{
+    margin:auto;
+    font-family:Arial;
+    font-size:70%;
+    background-image:url('../images/background.png');
+    background-repeat:repeat-x;
+    text-align:center;
+}
+/* GENERAL INPUT BORDER - BA */
+input, textarea
+{
+    border:1px solid #70B8FF;
+}
+/* HEADER STYLING */
+/* LOGIN STYLING */
+#login, #banner, #navigation, #content, #content2, #footer
+{
+    text-align:left;
+    margin:auto;
+    width:900px;
+}
+#login
+{
+    margin-top:5px;
+    background-color:white;
+    color:#535353;
+}
+#login #ltable
+{
+    width:100%;
+    font-size: 1em;
+}
+#login #ltable td
+{
+    height:27px;
+}
+#login .hltext
+{
+    font-weight:bold;
+    color:#3399FF;
+}
+#login #logright
+{
+    text-align:right;
+    padding-left:80px;
+    color:#535353;
+}
+#login input
+{
+    height:15px;
+}
+#logbutton
+{
+    margin-top:-2px;
+    position:relative;
+    top:2px;
+    left:-2px;
+    border:none;
+}
+/* LOGIN LINK */
+#login .hltext a:link{text-decoration:none;color:#3399FF;}
+#login .hltext a:visited{text-decoration:none;color:#3399FF;}
+#login .hltext a:hover{text-decoration:none;color:#FF6600;}
+#login .hltext a:active{text-decoration:none;color:#3399FF;}
+
+#login form input
+{
+    font-size:.9em;
+}
+/* LOGIN STYLING ENDS */
+#banner
+{
+    height:236px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#banner img
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#navigation
+{
+    border-top:1px solid black;
+    height:40px;
+    background-image:url('../images/navi.png');
+}
+#navigation ul
+{
+    margin-top:10px;
+    margin-left:5px;
+    padding-left:0;
+    list-style-type:none;
+    margin-bottom: 0px;
+}
+#navigation ul li
+{
+    display:inline;
+    font-size:1.2em;
+    font-weight:lighter;
+    /*padding-left:5.8%;*/
+    padding-left: 8%;
+}
+/* NAVIGATION LINKS */
+#navigation ul li a:link{text-decoration:none;color:#696969;}
+#navigation ul li a:visited{text-decoration:none;color:#696969;}
+#navigation ul li a:hover{text-decoration:none;color:#3399FF;}
+#navigation ul li a:active{text-decoration:none;color:#696969;}
+
+/* CONTENT STYLING */
+#content
+{
+    background-image:url('../images/banner_reflection.png');
+    background-repeat:no-repeat;
+    min-height:170px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#prevgame, #practice
+{
+    position:relative;
+    top:10px;
+}
+#prevgame, #nextgame, #practice
+{
+    border:1px solid #696969;
+    margin-top:10px;
+    margin-left:10px;
+    /* display:inline-block; */
+    float:left;
+    vertical-align:middle;
+}
+#prevgame h3, #nextgame h3, #practice h3
+{
+    height:24px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+    font-weight:lighter;
+    background-image:url('../images/header_background.png');
+    background-repeat:repeat-x;
+}
+#prevgame
+{
+    width:270px;
+    height:145px;
+}
+#prevgame table
+{
+    width:100%;
+    margin-top:-15px;
+    text-align:center;
+    font-size:1em;
+    font-weight:bold;
+}
+#prevgame table th
+{
+    height:60px;
+}
+#prevgame #pgamevs
+{
+    font-size:1.3em;
+    color: #515151;
+}
+#prevgame table .ogoals
+{
+    width:40%;
+    text-align:right;
+    font-size: 15px;
+}
+#prevgame table .egoals
+{
+    width:40%;
+    text-align:left;
+    font-size: 15px;
+}
+#prevgame img
+{
+    height:59px;
+    width:50px;
+}
+#nextgame
+{
+    width:300px;
+    height:160px;
+}
+#nextgame table
+{
+    width:100%;
+    height:50%;
+    margin-top:-15px;
+    text-align:center;
+    font-size: 1em;
+}
+#nextgame table th
+{
+    height:70px;
+}
+#nextgame #oimg
+{
+    text-align:right;
+    width:40%;
+}
+#nextgame #eimg
+{
+    text-align:left;
+    width:40%;
+}
+#nextgame img
+{
+    height:59px;
+    width:50px;
+}
+#nextgame #ngamevs
+{
+    font-size:1.5em;
+    font-weight:bold;
+    color: #515151;
+}
+#nextgame #ngameloc
+{
+    font-size:1.3em;
+    font-weight:bold;
+    color:#3399FF;
+}
+#nextgame #ngamerest
+{
+    font-size:1.2em;
+    font-weight:bold;
+}
+#practice
+{
+    width:270px;
+    height:145px;
+}
+#practice #practable
+{
+    height:60%;
+    border-collapse:collapse;
+    width:100%;
+    font-size:1.1em;
+}
+#practice #practable td
+{
+    padding-left:5px;
+}
+#practice #pupdate
+{
+    text-align:right;
+}
+#practice #pupdate #pupdatespan
+{
+    font-size:0.8em;
+    font-style:italic;
+    position:relative;
+    top:-20px;
+}
+#practice .pracinfo
+{
+    width:50%;
+    border-bottom:1px solid #3399FF;
+    font-size:1.2em;
+    font-weight:bold;
+    color:#3399FF;
+}
+#practice .praclocation
+{
+    font-size: 1.2em;
+    color: #444444;
+}
+
+#practice #praclink
+{
+    padding-top:10px;
+    text-align:center;
+    color: #444444;
+}
+#practice #praclink:hover
+{
+    background-color:#84ff00;
+}
+#practice #praclink a:link {text-decoration:none;color:inherit;}
+#practice #praclink a:visited {text-decoration:none;color:inherit;}
+#practice #praclink a:hover {text-decoration:underline;color:inherit;}
+#practice #praclink a:active {text-decoration:none;color:inherit;}
+
+#content2
+{
+    height:280px;
+}
+
+#newsposts, #leadscore
+{
+    border:1px solid #696969;
+    /*display:inline-block;*/
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    vertical-align:middle;
+}
+
+#newsposts
+{
+    background-image:url('../images/newsbox_background.png');
+/*    width:585px; */
+    width:630px;
+    height:260px;
+}
+#newsposts table
+{
+    border-collapse:collapse;
+    width:100%;
+    height:100%;
+    font-size:1em;
+}
+#newsposts table th
+{
+    height:7px;
+    border-bottom:1px solid black;
+}
+#newsposts table a:link {text-decoration:none;color:#000000;}
+#newsposts table a:visited {text-decoration:none;color:#000000;}
+#newsposts table a:hover {text-decoration:underline;color:#000000;}
+#newsposts table a:active {text-decoration:none;color:#000000;}
+
+.hemp
+{
+    background-image:url('../images/header_background.png');
+    background-repeat:repeat-x;
+    border-bottom:1px solid black;
+    /*background-color:#3ba1f8;*/
+    color:#FFFFFF;
+    font-size:1.3em;
+    text-align:left;
+    padding-left:5px;
+    height:8%;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.nheadalt, .npvmalt
+{
+    background-color:#D9E3EA;
+}
+.nheadalt, .nhead
+{
+    text-align:left;
+    padding-left:15px;
+    padding-top: 0px;
+    width:40%;
+    height:8.2%;
+}
+.npvmalt, .npvm
+{
+    padding-right:10px;
+    text-align:right;
+    width:10%;
+    height:8.2%;
+}
+#leadscore
+{
+    border:none;
+    position:relative;
+    top:-7px;
+    background-image:url('../images/scoreboard.png');
+    background-repeat:no-repeat;
+    width:230px;
+    height:280px;
+}
+
+#leadscore table
+{
+    font-size:1.25em;
+    margin-top:20px;
+    margin-left:14px;
+    border-collapse:collapse;
+    width:198px;
+    max-height:240px;
+}
+#leadscore table th
+{
+    font-size:1.2em;
+    font-weight:500;
+    color:#3ba1f8;
+    background-color:white;
+    height:24px;
+    text-align:left;
+    padding-left: 20px;
+}
+#leadscore table td
+{
+    color:white;
+    padding-left:10px;
+    padding-right:2px;
+}
+#leadscore table td a:link{text-decoration:none;color:#fff}
+#leadscore table td a:active {text-decoration:none;color:inherit}
+#leadscore table td a:hover {text-decoration:underline;color:inherit}
+#leadscore table td a:visited {text-decoration:none;color:inherit}
+.alt
+{
+    background-color:#3ba1f8;
+}
+.altpoints
+{
+    background-color:#3ba1f8;
+    text-align:right;
+}
+.points
+{
+    text-align:right;
+}
+
+#footer
+{
+    background-image:url('../images/footer_background.png');
+    background-repeat:repeat-x;
+    height:200px;
+}
+#footer p
+{
+    font-size:1.5em;
+    padding-left:20px;
+    color:#494949;
+    background-color:#FFFFFF;
+}
+#footer table
+{
+    color:#FFFFFF;
+    margin-left: 10px;
+    padding-left:20px;
+    font-size:1.1em;
+}
+#footer table th
+{
+    text-align:left;
+    font-weight:500;
+    width:150px;
+}
+
+#footerlinks
+{
+    position:relative;
+    top:-35px;
+    margin:auto;
+    height:30px;
+    width:930px;
+    background-color:#494949;
+    color:white;
+}
+#footerlinks span
+{
+    position:relative;
+    top:-8px;
+    font-size:1.3em;
+    padding-left:20px;
+}
+#footerlinks ul
+{
+    position:relative;
+    top:-8px;
+    margin-left:80px;
+    display:inline;
+    list-style-type:none;
+}
+#footerlinks ul li
+{
+    display:inline;
+    padding-left:10px;
+    font-size:1.2em;
+    font-weight:lighter;
+}
+#footer .footer-right
+{
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.footer-right img
+{
+    border: 0px;
+}
+
+/* FOOTER NAVIGATION LINKS */
+#footerlinks ul li a:link {text-decoration:none;color:#FFFFFF;}
+#footerlinks ul li a:visited {text-decoration:none;color:#FFFFFF;}
+#footerlinks ul li a:hover {text-decoration:none;color:#3399FF;}
+#footerlinks ul li a:active {text-decoration:none;color:#FFFFFF;}
+
+/* REGISTER STYLING ONLY */
+#fail
+{
+    position:relative;
+    top:70px;
+    left:450px;
+    width:350px;
+    height:10px;
+    padding:2px;
+}
+#fail table
+{
+    border:1px solid black;
+}
+#fail table th
+{
+    text-align:left;
+    font-size:1.2em;
+}
+#fail table td
+{
+    font-size:1.1em;
+    background-color:#FFC2B2;
+}
+#fail .failspan
+{
+    background-color:#FFFFB2;
+}
+
+#content form
+{
+    /*border:1px solid black;*/
+    position:relative;
+    left:20px;
+    width:400px;
+    margin-bottom:10px;
+}
+#content form table
+{
+    border-collapse:collapse;
+    width:100%;
+    margin-bottom:5px;
+}
+#content form table .info
+{
+    font-style:italic;
+    color:#3399FF;
+}
+#content form table th
+{
+    font-size:1.2em;
+    font-weight:bold;
+    text-align:center;
+    height:24px;
+    color:#FFFFFF;
+    background-image:url('../images/header_background.png');
+}
+#content form table td
+{
+    padding-top:5px;
+}
+/* ---------------- REGISTERING STYLING ENDS ---------------- */
+
+/* ------------------ NEWS STYLING BROWSE --------------------*/
+#content .topic
+{
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    border: 1px solid #3399FF;
+    color: #515151;
+}
+#content .topic a
+{
+    padding: 1px;
+    border: 1px dotted #3399FF;
+}
+
+#content .topic h2
+{
+    position:relative;
+    border-bottom:4px solid #3399FF;
+    width:85%;
+    margin-left:5px;
+    margin-bottom:0;
+    padding-bottom:0;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+#content .topic .tdate
+{
+    font-style:italic;
+    font-size:1.1em;
+    color:#3399FF;
+    position:relative;
+    left:90%;
+    top:-20px;
+}
+#content .topic p
+{
+    margin-top:0px;
+    padding-top:0px;
+    margin-left:5px;
+    margin-right:5px;
+    width:85%;
+}
+#content .topic img
+{
+    position:relative;
+    top:7px;
+}
+#content a:link {text-decoration:none;color:#3399FF;}
+#content a:visited {text-decoration:none;color:#3399FF;}
+#content a:hover {text-decoration:underline;color:#FF6600;}
+#content a:active {text-decoration:none;color:#3399FF;}
+
+#content #pagelinks
+{
+    font-size:1.11em;
+    font-weight:bold;
+    text-align:right;
+    padding-top:10px;
+    margin-right:30px;
+    margin-bottom:10px;
+}
+#content #pagelinks a, #content #pagelinks span
+{
+    padding-right:5px;
+    position:relative;
+    right:-50px;
+}
+#content #pagelinks #pagecount
+{
+    position:relative;
+    right:50%;
+}
+/* ----------------- NEWS STYLING BROWSE ENDS ------------------- */
+
+/* -------------------- NEWS STYLING FULL ------------------- */
+#content .ftopic
+{
+    padding-left:15px;
+    width:90%;
+    font-size: 1.9em;
+}
+#content #content .fauthor, #content .fcontent, #content .newsback
+{
+    padding-left:15px;
+    width:90%;
+    color: #515151;
+}
+#content .fingress
+{
+    padding-left:15px;
+    font-size:1.2em;
+    width:80%;
+    font-style:italic;
+    color: #515151;
+}
+#content #fauthorspan
+{
+    color:#3399FF;
+    font-style:italic;
+}
+#content .fauthor, #content .fcontent, #content .newsback
+{
+    font-size:1.2em;
+}
+
+/* ----------------- NEWS STYLING FULL ENDS ---------------- */
+
+/* ----------------- PLAYERS STYLING ROSTER ------------------ */
+#content h1
+{
+    padding-left:15px;
+    color:#3399FF;
+    font-size: 1.8em;
+}
+#content p
+{
+    padding-left:15px;
+}
+#content #ptable
+{
+    border-collapse:collapse;
+    margin-left:45px;
+    margin-bottom:10px;
+    font-size: 11px;
+}
+#content #ptable td
+{
+    text-align:left;
+    width:100px;
+}
+#content #ptable table
+{
+    border-collapse:collapse;
+}
+#content #ptable .pimg
+{
+    border-bottom:5px solid #3399FF;
+    text-align:center;
+}
+#content #ptable img
+{
+    border: 0px;
+}
+
+#content #ptable .pnumb
+{
+    font-size:15px;
+    font-weight:bold;
+    color:#3399FF;
+}
+/* PLAYERS STYLING ROSTER ENDS */
+
+/* PLAYERS STYLING FULL */
+
+#playerinfo
+{
+    margin-left: 100px;
+    height: 230px;
+    font-size: 1.2em;
+}
+#playerinfo h2
+{
+    margin-left: 190px;
+}
+
+#pimg img
+{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #3399FF;
+    float: left;
+}
+
+#content #pfull
+{
+    border-collapse:collapse;
+    margin-left:20px;
+    float: left;
+    height: 130px;
+}
+#content #pfull td img
+{
+    border:2px solid #3399FF;
+}
+#content #pfull td
+{
+    padding-right:10px;
+}
+#content #pfull .pinfo
+{
+    color:#3399FF;
+}
+/* PLAYERS STYLING FULL ENDS */
+
+/* CENTERING GAMES AND CONTACT */
+#cdiv
+{
+    margin:auto;
+}
+
+/* CENTERING GAMES AND CONTACT END */
+
+/* GAME STYLING AND PRACTICE */
+#content .ghead
+{
+    margin-left:220px;
+    color:#3399FF;
+    font-size:1.5em;
+}
+#content .gtable, #content #practableall
+{
+    margin-left:220px;
+    width:50%;
+    border-collapse:collapse;
+    border-left: 2px solid #3399FF;
+    border-right: 2px solid #3399FF;
+    font-size: 1em;
+}
+#content .gtable .gleft
+{
+    width:25%;
+}
+#content .gtable .gown
+{
+    text-align:right;
+    width:25%;
+}
+content .gtable .genmy
+{
+    text-align:left;
+}
+#content .gtable .gtime, #content .gtable .gresult, #content .gtable .gcen
+{
+    text-align:center;
+    width:5%;
+}
+#content .gtable .gtime, #content .gtable .gresult, #content .gresultwin, #content .gresultlose, #content .gresultdraw
+{
+    border-left: 1px solid #3399FF;
+    border-right: 1px solid #3399FF;
+}
+
+#content .gresultwin
+{
+    text-align:center;
+    background-color:#CCFFCC;
+}
+#content .gresultlose
+{
+    text-align:center;
+    background-color:#FFCCCC;
+}
+#content .gresultdraw
+{
+    text-align:center;
+    background-color:#FFFFCC;
+}
+#content .gtable .gloc
+{
+    text-align:right;
+    width:50%;
+}
+#content .gtable th, #content #practableall th
+{
+    font-size:1.2em;
+    padding-left:5px;
+    padding-right:5px;
+    background-image:url('../images/header_background.png');
+    background-repeat:repeat-x;
+    color:#FFFFFF;
+}
+#content .gtable td, #content #practableall td
+{
+    padding-left:5px;
+    padding-right:5px;
+    border-bottom:1px solid #3399FF;
+}
+#content #brwgames
+{
+    margin-left:220px;
+}
+#content #brwgames #curyear
+{
+    font-size:1.3em;
+    font-weight:bold;
+    text-decoration:underline;
+}
+/* GAME STYLING ENDS */
+
+/* ------------------ PRACTICE STYLING ------------------ */
+#content #practableall th
+{
+    text-align:left
+}
+#content #practableall td
+{
+    margin-left:10px;
+}
+/* ------------------ PRACTICE STYLING ENDS ------------------ */
+/* CONTACT STYLING */
+#content #cform
+{
+    margin-left:220px;;
+    width:450px;
+}
+#content form table td
+{
+    padding-left:5px;
+}
+#content form table .creq
+{
+    font-weight:bold;
+    color:#FF0000;
+}
+#content form table .cinfo
+{
+    font-style:italic;
+    color:#3399FF;
+}
+#content form table #csub
+{
+    vertical-align:top;
+}
+#content form textarea
+{
+    max-width: 400px;
+    max-height: 300px;
+}
+#content form table #csend
+{
+    width:10%;
+}
+#content #ftable
+{
+    position:relative;
+    top:-110px;
+    left:526px;
+    border:1px solid black;
+    width:117px;
+    background-color:#FFCCCC;
+    border-collapse:collapse;
+    font-size: 1em;
+}
+#content #ftable th
+{
+    border-bottom:1px solid black;
+}
+#content #ftable td
+{
+    padding:1px;
+}
+#content #cfail
+{
+    height:0px;
+}
+
+/* CONTACT STYLING ENDS */
+
+/* COMMENTS */
+
+h2
+{
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+.commentheader
+{
+    color: #3399FF;
+    padding: 0px;
+    margin: 0px;
+}
+
+.comment
+{
+    padding: 4px 30px 10px 0px;
+    margin: 0px 0px 0px 10px;
+    font-size: 1.1em;
+}
+
+.fail
+{
+    color: red;
+}
+
+.wholecomment
+{
+    border: 1px solid red;
+}
+
+.color
+{
+    padding-top:10px;
+    background-color: #e1edff;
+}
+
+.non-color
+{
+    padding-top:10px;
+}
+
+/* END OF COMMENTS */
+
+/* GALLERY STYLING */
+#content .album
+{
+    margin-left:80px;
+    border-bottom:3px solid #e1edff;
+    margin-top:-10px;
+}
+#content .album h2
+{
+    min-width:720px;
+}
+#content .album p
+{
+    font-size:1.2em;
+}
+#content .album .albumtable
+{
+    margin-top:-10px;
+    background-color:#FFFFFF;
+}
+#content .album h2
+{
+    color:#FFFFFF;
+    background-color:#3399FF;
+    font-size:1.7em;
+    padding-left:50px;
+}
+#content .album .albumtable td
+{
+    height:100px;
+    padding:5px;
+    background-color:#e1edff;
+}
+#content .album .albumtable td:hover
+{
+    background-color:#3399FF;
+}
+#content .album img
+{
+    width:72px;
+    height:100px;
+    border:0;
+}
+#album-nav
+{
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.prev, .next
+{
+    border:1px solid #000000;
+    color:#FFFFFF;
+    background-color:#3399FF;
+    font-weight:lighter;
+    padding:0.25em;
+}
+.prev:hover, .next:hover
+{
+    border-style:inset;
+}
+
+/* --------------- GALLERY STYLING ENDS -------------------- */
+
+/* -------------- PRACTICE PAGE STYLING -------------------- */
+
+.practicetable
+{
+    border: 2px solid #3399FF;
+    font-size: 1.2em;
+    margin: 0px 300px 50px 250px;
+    width: 350px;
+}
+
+.practicetable th
+{
+    background-color: #00a2e5;
+    color: #fff;
+}
+
+#content h1
+{
+    padding-top: 0px;
+}
+
+
+/* --------- END OF PRACTICE PAGE STYLING ------------------ */
+
+/* ------------- USER INFO STYLING ---------------- */
+
+.userinfo
+{
+    margin-left: 50px;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+
+.userinfo tr td
+{
+    padding-bottom: 5px;
+    padding-right: 50px;
+}
+
+.userinfo th
+{
+    font-size: 1.3em;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.bold
+{
+    font-weight: bold;
+    color: #000;
+}
+
+/* USER EDIT STYLING*/
+
+.password-table, .datatable, .userh2
+{
+    margin-left: 30px;
+}
+.password-table, .datatable
+{
+    font-size: 1.05em;
+}
+
+.dataedit
+{
+    padding-right: 80px;
+}
+
+.info
+{
+    color: #c34500;
+}
+
+/* ------------------------- END OF USER PAGES STYLING ------------------------ */
